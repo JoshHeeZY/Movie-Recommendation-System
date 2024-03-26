@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Recommendations</title>
+</head>
+<body>
+    <h2>Recommendations:</h2>
+    <ul>
+        {% for drama in recommendations %}
+            <li>{{ drama }}</li>
+        {% endfor %}
+    </ul>
+    <a href="/">Try another</a>
+</body>
+</html>
